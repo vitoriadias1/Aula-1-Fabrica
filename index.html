@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vitória Dias</title>
+  <title>Portfólio - Vitória Dias</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <h1> Meu nome: Vitória Dias</h1>
-  <h1> Minha foto</h1>
-  <img src="./vitoria.jpg" alt="minha foto">
-  <h1> Meu Portfólio</h1>
-  <a href="https://vitoriadias.carrd.co/">Clique aqui e abra meu portfólio</a>
-  <h1> Eu sla </h1>
+  <div class="container">
+    <div class="card">
+      <div class="profile-img">
+        <img src="./vitoria.jpg" alt="Minha foto de perfil">
+      </div>
+      <p class="role">Estudante / Front-end</p>
+      <h1>Vitória Dias</h1>
+      <hr>
+      <p class="desc">
+        Vitória Valéria Dias Lima, 19 anos, graduanda em Ciência da Computação e estudando para ser 
+        Front-end na Fábrica de Software da faculdade UNIPÊ.
+      </p>
+      <div class="contact">
+        <button onclick="sendEmail()">Meu gmail ✉️</button>
+      </div>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/vitória-dias-4b7aa936b" target="_blank" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"></a>
+        <a href="https://github.com/vitoriadias1" target="_blank" aria-label="GitHub"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub"></a>
+        <a href="https://discord.com/channels/@lobalua/1370898111953764455" target="_blank" aria-label="Discord"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord"></a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
